@@ -63,8 +63,26 @@ def index():
                     'title': "Genre"
                 }
             }
+        },
+        {
+            'data': [
+                Bar(
+                    x=categories_names,
+                    y=categories_positive
+                )
+            ],
+
+            'layout': {
+                'title': 'Distribution of Category Genres',
+                'yaxis': {
+                    'title': "Count"
+                },
+                'xaxis': {
+                    'title': "Genre"
+                }
+            }
         }
-    ]
+    ]  
     
     # encode plotly graphs in JSON
     ids = ["graph-{}".format(i) for i, _ in enumerate(graphs)]
