@@ -41,7 +41,7 @@ This course has helped me acquire and hone my data engineering skills, which wil
 	│   └── process_data.py # ETL pipeline
 	├── models
 	│   └── train_classifier.py # ML pipeline
-	│    └── classifier.pkl # Saved model. Please run the ML pipeline workplace to create this file.
+	│    └── classifier.pkl # Saved model. Please run the ML pipeline workplace to create this file. (This file over than 25MB so I can not upload here)
 
 ## Instruction:
 
